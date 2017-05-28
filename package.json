@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abhinayar/ToneBaseNonCoreDev.git"
+    "url": "git+https://github.com/abhinayar/tonebaseNonCoreNode.git"
   },
   "keywords": [
     "tonebase"
