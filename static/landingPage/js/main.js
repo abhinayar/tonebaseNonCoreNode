@@ -42,12 +42,9 @@ $(document).ready(function(){
     var email = $(".hero-form" + top + " .form-input").val()
     //If email is valid
     if(isValidEmail(email)) {
-      //Hide the form, show the response
-      console.log(".hero-form" + top + " .form-input-wrapper", ".hero-form" + top + " .form-button");
-      
+      //Hide the form, show the response      
       $(".hero-form" + top + " .form-input-wrapper, .hero-form" + top + " .form-button").addClass("hidden");
-      //Send email and info. to Google Sheets
-      sendEmail(email);
+      $(".hero-form" + top + " #mce-responses").removeClass("hidden");
       //Unhide MailChimp response
       $("#mce-responses").removeClass("hidden");
       //Track with mixpanel
@@ -71,8 +68,8 @@ $(document).ready(function(){
       $(".hero-form .form-input").val("").attr("placeholder", "Invalid Email Address");
     }
   });
-  //Hide Sumome 
+  //Hide Sumome & Clicky
   setTimeout(function(){
-    $("a[title='Sumo']").hide();
+    $("a[title='Sumo'], a[title='Real Time Analytics']").hide();
   }, 1000);
 });
