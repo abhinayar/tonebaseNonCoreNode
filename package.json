@@ -8,11 +8,12 @@
     "handlebars": "^4.0.10",
     "hbs": "^4.0.1",
     "http": "0.0.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "serve-favicon": "^2.4.3"
   },
   "devDependencies": {},
   "scripts": {
-    "start" : "node app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
