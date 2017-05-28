@@ -9,7 +9,7 @@ app.set('port', process.env.PORT || 8080)
 app.set('view engine', 'hbs')
 app.set('views', path.join(__dirname, '/views'))
 app.use(express.static(__dirname + '/static/'))
-app.use(favicon(path.join(__dirname, favicon.ico)));
+app.use(favicon(path.join(__dirname, 'favicon.ico')));
 
 app.get('/', function(req, res) {
   res.redirect('/comingSoon');
