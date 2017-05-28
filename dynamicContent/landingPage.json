@@ -1,0 +1,100 @@
+{
+  "socialLinks": {
+    "facebook" : "https://www.facebook.com/tonebaseteam/",
+    "instagram" : "https://www.instagram.com/tonebaseteam/",
+    "twitter" : "https://twitter.com/tonebaseteam",
+    "linkedin" : "https://www.linkedin.com/company/tonebase"
+  },
+  "mainHeroImageSrc" : "landingPage/img/landing/hero.jpg",
+  "mainHeadline" : "Online masterclasses <br>from the world's greatest guitarists",
+  "mainSubline" : "tonebase gives you instant access to the knowledge of the world's greatest guitarists, performers and educators. Simple, easy, on-demand and on-line.",
+  "artistList" : [
+    {
+      "name" : "Eliot Fisk",
+      "website" : "www.eliotfisk.com",
+      "imageSrc" : "landingPage/img/artists/eliotFisk.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : ""
+    },
+    {
+      "name" : "Benjamin Verdery",
+      "website" : "http://www.benjaminverdery.com/",
+      "imageSrc" : "landingPage/img/artists/benjaminVerdery.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : "long-name"
+    },
+    {
+      "name" : "Xuefei Yang",
+      "website" : "http://www.xuefeiyang.com/",
+      "imageSrc" : "landingPage/img/artists/xuefeiYang.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : ""
+    },
+    {
+      "name" : "Frederic Hand",
+      "website" : "http://www.frederichand.com",
+      "imageSrc" : "landingPage/img/artists/fredericHand.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : ""
+    },
+    {
+      "name" : "Tariq Harb",
+      "website" : "https://www.facebook.com/tariqharb/",
+      "imageSrc" : "landingPage/img/artists/tariqHarb.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : ""
+    },
+    {
+      "name" : "Sanel Redzic",
+      "website" : "http://www.sanelredzic.com/",
+      "imageSrc" : "landingPage/img/artists/sanelRedzic.jpg",
+      "imageExtraClass": "shiftedDown",
+      "sectionTextExtraClass" : ""
+    },
+    {
+      "name" : "William Kanengiser",
+      "website" : "http://www.kanengiser.com/",
+      "imageSrc" : "landingPage/img/artists/williamKanengiser.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : "long-name"
+    }  
+  ],
+  "featuresTitle" : "Why tonebase?",
+  "features" : [
+    {
+      "extraClass" : "long-top",
+      "imageSrc" : "landingPage/img/features/scoreSwitch.jpg",
+      "imageAlt" : "Interactive Learning Environment",
+      "imageClasses" : "col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0 col-md-push-7 hero-image",
+      "infoClasses" : "col-xs-12 col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-0 col-md-pull-5 features-info",
+      "headline" : "Modern, Interactive Learning Environment",
+      "subline" : "tonebase provides a robust 21st century learning environment for guitar. Interactive score integration allows you to switch between the artists explanation and an image of the sheet music being played allowing you to easily follow the concepts being desribed.",
+      "flipped" : false
+    },
+    {
+      "extraClass" : "shiftDown",
+      "imageSrc" : "landingPage/img/features/artistGrid.jpg",
+      "imageAlt" : "High Quality Educators",
+      "imageClasses" : "col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0 hero-image",
+      "infoClasses" : "col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-0 features-info",
+      "headline" : "Only The Highest Quality Artists &amp; Educators",
+      "subline" : "tonebase works with a community of the worlds most accomplished artists &amp; educators to source our exclusive content. This means the ideas, talent and technique on the platform is unmatched anywhere on the internet- Youtube, Vimeo, you name it.",
+      "flipped" : true
+    },
+    {
+      "extraClass" : "shiftDown",
+      "imageSrc" : "landingPage/img/features/artistValue.png",
+      "imageAlt" : "Artists Benefit",
+      "imageClasses" : "col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0 col-md-push-7 hero-image",
+      "infoClasses" : "col-xs-12 col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-0 col-md-pull-5 features-info",
+      "headline" : "Our Proceeds Directly Benefit Musicians",
+      "subline" : "tonebase justly compensates all our artists for their knowledge and time. Artists are the key to our platform and we treat them with fairness and humility. Artists share in the profits of the platform and are compensated on a per video basis.",
+      "flipped" : false
+    }
+  ],
+  "interestedSectionTitle" : "Interested?",
+  "interestedSectionHTML" : "tonebase is currently in a private beta and will launch in June. Visit our booth at <a href='http://www.guitarfoundation.org/'>GFA 2017</a>.<br><br>Enter your email address to request early access and to receive alerts as we launch!",
+  "aboutSectionText" : "tonebase, inc. aims to democratize music education by opening access to the world's greatest artists and educators. By providing a platform for the world to engage with the knowledge these legends have collected over their illustrious careers, we hope to inspire the next generation of musicians and bring music education into the 21st century.",
+  "aboutSectionCompanyHTML" : "tonebase, inc. was founded at Yale University. It is currently funded by the <a href='http://yei.yale.edu/tone-base'>Yale Entrepreunership Institute</a>. To learn more about the team or if you have any questions please <a href='mailto:team@tone-base.com?subject=General Inquiry'>contact us</a>.",
+  "endText" : "Thank you!"
+}
