@@ -14,9 +14,12 @@ app.use(favicon(path.join(__dirname, 'favicon.ico')));
 app.get('/', function(req, res) {
   res.redirect('/comingSoon');
 })
+app.get('/defaultsite', function(req, res) {
+  res.redirect('/comingSoon');
+})
 app.get('/comingSoon', function(req, res) {  
   //EDIT THIS FILE
-  var landingContent = require(__dirname + '/dynamicContent/landingPage.json');
+  var landingContent = require(__dirname + '/dynamicContent/landingPage2.json');
   res.render('landing', {
     content : landingContent
   });

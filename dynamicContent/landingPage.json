@@ -57,7 +57,7 @@
       "imageSrc" : "landingPage/img/artists/williamKanengiser.jpg",
       "imageExtraClass" : "shiftedDown",
       "sectionTextExtraClass" : "long-name"
-    }  
+    }
   ],
   "featuresTitle" : "Why tonebase?",
   "features" : [
@@ -77,7 +77,7 @@
       "imageAlt" : "High Quality Educators",
       "imageClasses" : "col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0 hero-image",
       "infoClasses" : "col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-0 features-info",
-      "headline" : "Only The Highest Quality Artists &amp; Educators",
+      "headline" : "Access to High-Level Artists &amp; Educators",
       "subline" : "tonebase works with a community of the worlds most accomplished artists &amp; educators to source our exclusive content. This means the ideas, talent and technique on the platform is unmatched anywhere on the internet- Youtube, Vimeo, you name it.",
       "flipped" : true
     },
@@ -95,6 +95,6 @@
   "interestedSectionTitle" : "Interested?",
   "interestedSectionHTML" : "tonebase is currently in a private beta and will launch in June. Visit our booth at <a href='http://www.guitarfoundation.org/'>GFA 2017</a>.<br><br>Enter your email address to request early access and to receive alerts as we launch!",
   "aboutSectionText" : "tonebase, inc. aims to democratize music education by opening access to the world's greatest artists and educators. By providing a platform for the world to engage with the knowledge these legends have collected over their illustrious careers, we hope to inspire the next generation of musicians and bring music education into the 21st century.",
-  "aboutSectionCompanyHTML" : "tonebase, inc. was founded at Yale University. It is currently funded by the <a href='http://yei.yale.edu/tone-base'>Yale Entrepreunership Institute</a>. To learn more about the team or if you have any questions please <a href='mailto:team@tone-base.com?subject=General Inquiry'>contact us</a>.",
+  "aboutSectionCompanyHTML" : "tonebase, inc. was founded at Yale University. It is currently funded by the <a href='http://yei.yale.edu/tone-base'>Yale Entrepreunerial Institute</a>. To learn more about the team or if you have any questions please <a href='mailto:team@tone-base.com?subject=General Inquiry'>contact us</a>.",
   "endText" : "Thank you!"
 }
