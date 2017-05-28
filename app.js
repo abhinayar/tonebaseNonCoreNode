@@ -19,7 +19,7 @@ app.get('/defaultsite', function(req, res) {
 })
 app.get('/comingSoon', function(req, res) {  
   //EDIT THIS FILE
-  var landingContent = require(__dirname + '/dynamicContent/landingPage2.json');
+  var landingContent = require(__dirname + '/dynamicContent/landingPage.json');
   res.render('landing', {
     content : landingContent
   });
