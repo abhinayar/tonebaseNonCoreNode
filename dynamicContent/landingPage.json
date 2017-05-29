@@ -11,7 +11,7 @@
   "artistList" : [
     {
       "name" : "Eliot Fisk",
-      "website" : "www.eliotfisk.com",
+      "website" : "http://www.eliotfisk.com",
       "imageSrc" : "landingPage/img/artists/eliotFisk.jpg",
       "imageExtraClass" : "shiftedDown",
       "sectionTextExtraClass" : ""
