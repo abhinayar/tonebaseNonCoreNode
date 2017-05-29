@@ -80,11 +80,32 @@
       "sectionTextExtraClass" : ""
     },
     {
+      "name" : "Kostas Tosidis",
+      "website" : "http://www.kostastosidis.com/",
+      "imageSrc" : "landingPage/img/artists/new/kostasTosidis.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : ""
+    },
+    {
       "name" : "Carlo Marchione",
       "website" : "http://www.carlo-marchione.com/",
       "imageSrc" : "landingPage/img/artists/new/carloMarchione.jpg",
       "imageExtraClass" : "shiftedDown",
       "sectionTextExtraClass" : "long-name"
+    },
+    {
+      "name" : "Joseph Palmer",
+      "website" : "http://josephpalmerguitar.com/html/bio.html",
+      "imageSrc" : "landingPage/img/artists/new/josephPalmer.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : ""
+    },
+    {
+      "name" : "Rene Izquierdo",
+      "website" : "http://www.reneizquierdoguitar.com/",
+      "imageSrc" : "landingPage/img/artists/new/reneIzquierdo.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : ""
     }
   ],
   "featuresTitle" : "Why tonebase?",

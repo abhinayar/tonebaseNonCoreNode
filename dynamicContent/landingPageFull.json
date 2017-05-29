@@ -73,6 +73,13 @@
       "sectionTextExtraClass" : ""
     },
     {
+      "name" : "Ricardo Gallen",
+      "website" : "https://en.wikipedia.org/wiki/Ricardo_Gall%C3%A9n",
+      "imageSrc" : "landingPage/img/artists/new/ricardoGallen.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : ""
+    },
+    {
       "name" : "Denis Azabagic",
       "website" : "http://www.azabagic.com/",
       "imageSrc" : "landingPage/img/artists/new/denisAzabagic.jpg",
@@ -80,9 +87,30 @@
       "sectionTextExtraClass" : ""
     },
     {
+      "name" : "Kostas Tosidis",
+      "website" : "http://www.kostastosidis.com/",
+      "imageSrc" : "landingPage/img/artists/new/kostasTosidis.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : ""
+    },
+    {
       "name" : "Carlo Marchione",
       "website" : "http://www.carlo-marchione.com/",
       "imageSrc" : "landingPage/img/artists/new/carloMarchione.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : "long-name"
+    },
+    {
+      "name" : "Lorenzo Micheli",
+      "website" : "https://www.lorenzomicheli.com/",
+      "imageSrc" : "landingPage/img/artists/new/lorenzoMicheli.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : ""
+    },
+    {
+      "name" : "Artyom Dervoed",
+      "website" : "https://www.facebook.com/Dervoed/",
+      "imageSrc" : "landingPage/img/artists/new/artyomDervoed.jpg",
       "imageExtraClass" : "shiftedDown",
       "sectionTextExtraClass" : "long-name"
     }
