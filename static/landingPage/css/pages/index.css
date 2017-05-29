@@ -1,5 +1,5 @@
-/* 
-Website CSS 
+/*
+Website CSS
 By Abhi Nayar
 https://linkedin.com/in/abhinayar
 Any questions feel free to message me^.
@@ -111,7 +111,7 @@ html, body {
     right: -8px;
     font-weight: 300;
   }
-  
+
   .header {
     position: relative;
     z-index: 2;
@@ -127,7 +127,7 @@ html, body {
   } .hero-info {
     margin-left: 2%;
   }
-  
+
   h1.hero-text {
     text-align: left;
     padding-top: 15px;
@@ -152,7 +152,7 @@ html, body {
   } p.hero-text b {
     color: #fff;
   }
-  
+
   .hero-form {
     margin-top: 30px;
     width: 99%;
@@ -211,7 +211,7 @@ html, body {
   } .bottom-form {
     margin-left: 0;
   }
-  
+
   .small-section {
     padding: 15px 0;
   } .long-top {
@@ -223,7 +223,7 @@ html, body {
   } .row.shiftDown {
     margin-top: 60px;
   }
-  
+
   h1.section-text {
     font-size: 2.3em;
     font-weight: 400;
@@ -243,7 +243,7 @@ html, body {
   } p.section-text b {
     color: #fff;
   }
-  
+
   .artist-block {
     position: relative;
     height: 120px;
@@ -278,17 +278,17 @@ html, body {
     background-color: rgba(0,0,0,0.6);
     cursor: pointer;
   } .artist-block:not(.filler) .artist-name a:hover {
-    background-color: rgba(141,47,34, 0.6); 
+    background-color: rgba(141,47,34, 0.6);
     transition: all 120ms ease;
   }
-  
+
   .features-section {
     background-image: url(../../img/landing/landingBg.jpg);
     padding-bottom: 60px;
   } .features-section .section-text {
     text-align: left;
   }
-  
+
   .social-rollout {
     font-size: 2.2em;
     margin-top: 10px;
@@ -298,20 +298,20 @@ html, body {
     text-decoration: none;
     display: inline-block;
   }
-  
+
   .footer {
     padding-bottom: 15px;
     border-bottom: 30px solid #1c1c1f;
   }
-  
-} 
+
+}
 @media (min-width: 450px) {
   .artist-block {
     height: 150px;
   } .artist-block .artist-name a {
     padding-top: 95px;
   }
-} 
+}
 @media (min-width: 540px) {
   .header .hero-image, .features-section .hero-image {
     padding: 0 30px;
@@ -327,8 +327,8 @@ html, body {
   } .artist-block .artist-image.shiftedDown {
     top: -20%;
   }
-} 
-@media (min-width: 768px) {  
+}
+@media (min-width: 768px) {
   .top-bar {
     padding-top: 20px;
   } .header {
@@ -363,21 +363,21 @@ html, body {
     top: 0;
   } .artist-block .artist-name a {
     padding-left: 6%;
-  } 
-} 
-@media (min-width: 992px) {  
+  }
+}
+@media (min-width: 992px) {
   .large-section {
     padding: 45px 0;
     padding-bottom: 90px;
   }
-  
+
   .top-bar .logo {
     float: left;
   } .top-bar .social-rollout {
     float: right;
     padding-top: 15px;
   }
-    
+
   .header {
     padding: 30px 0;
     padding-bottom: 90px;
@@ -448,7 +448,7 @@ html, body {
   } .bottom-sign-up p.section-text {
     text-align: center;
   }
-} 
+}
 @media (min-width: 1126px) {
   .artist-block {
     height: 220px;
@@ -461,6 +461,23 @@ html, body {
     padding-top: 165px;
   } .artist-block[data-target="William Kanengiser"] .artist-name a {
     padding-top: 132px;
+  }
+}
+@media (min-width: 1028px) {
+  .artist-block[data-target="Carlo Marchione"] .artist-name a {
+    padding-top: 124px;
+  }
+}
+@media (min-width: 1042px) {
+  .artist-block[data-target="Artyom Dervoed"] .artist-name a {
+    padding-top: 165px;
+    padding-top: 124px;
+  }
+}
+@media (min-width: 1126px) {
+  .artist-block[data-target="Carlo Marchione"] .artist-name a,
+  .artist-block[data-target="Artyom Dervoed"] .artist-name a {
+    padding-top: 165px;
   }
 }
 @media (min-width: 1182px) {
@@ -489,8 +506,8 @@ html, body {
     font-size: 2.8em;
   } .features-section .hero-image.short {
     padding-top: 32px;
-  } 
-} 
+  }
+}
 @media (min-width: 1440px) {
   .container {
     max-width: 1200px;
