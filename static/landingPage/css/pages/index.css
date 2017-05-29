@@ -54,16 +54,12 @@ Colors:
 }
 
 .dark {
-  background: #121314; /* Old Browsers */
-  background: -webkit-linear-gradient(left,#1c1c1f,#121314); /*Safari 5.1-6*/
-  background: -o-linear-gradient(left,#1c1c1f,#121314); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(left,#1c1c1f,#121314); /*Fx 3.6-15*/
+  background: #121314; /* Old Browsers */ /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/
+  background: -webkit-gradient(linear, left top, right top, from(#1c1c1f), to(#121314));
   background: linear-gradient(to right, #1c1c1f, #121314); /*Standard*/
 } .light {
-  background: #d53a27; /* Old Browsers */
-  background: -webkit-linear-gradient(left,#d53a27,#e14f3d); /*Safari 5.1-6*/
-  background: -o-linear-gradient(left,#d53a27,#e14f3d); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(left,#d53a27,#e14f3d); /*Fx 3.6-15*/
+  background: #d53a27; /* Old Browsers */ /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/
+  background: -webkit-gradient(linear, left top, right top, from(#d53a27), to(#e14f3d));
   background: linear-gradient(to right, #d53a27, #e14f3d); /*Standard*/
 } .light a {
   color: #fff;
@@ -72,7 +68,8 @@ Colors:
 }
 
 .shadow {
-  box-shadow: 0 5px 12px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 5px 12px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 12px 0px rgba(0, 0, 0, 0.2);
 }
 
 html, body {
@@ -165,7 +162,8 @@ html, body {
     border-radius: 60px;
     border: 5px solid rgba(225,79,61, 0.4);
     padding-left: 25px;
-    box-shadow: 0 5px 12px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 12px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 12px 0px rgba(0, 0, 0, 0.2);
     font-size: 1.7rem;
     width: 100%;
   } .hero-form .form-input-wrapper {
@@ -174,6 +172,7 @@ html, body {
     width: 100%;
   } .form-input {
     color: #000;
+    -webkit-transition: all 120ms ease;
     transition: all 120ms ease;
   } .hero-form .valid:after {
     display: block;
@@ -196,9 +195,12 @@ html, body {
     -webkit-appearance: none;
     color: #fff;
     margin-top: 10px;
+    -webkit-transition: all 120ms ease;
     transition: all 120ms ease;
   } .hero-form .form-button:hover {
-    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    -webkit-transition: all 120ms ease;
     transition: all 120ms ease;
   } #mce-responses {
     width: 85%;
@@ -255,6 +257,7 @@ html, body {
     top: -60%;
     left: 0;
     min-width: 100%;
+    -webkit-transition: all 120ms ease;
     transition: all 120ms ease;
   } .artist-block .artist-image.shiftedDown {
     top: -30%;
@@ -279,6 +282,7 @@ html, body {
     cursor: pointer;
   } .artist-block:not(.filler) .artist-name a:hover {
     background-color: rgba(141,47,34, 0.6);
+    -webkit-transition: all 120ms ease;
     transition: all 120ms ease;
   }
 
