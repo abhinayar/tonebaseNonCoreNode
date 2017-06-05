@@ -7,11 +7,11 @@
   },
   "mainHeroImageSrc" : "landingPage/img/landing/hero.jpg",
   "mainHeadline" : "Online masterclasses <br>from the world's greatest guitarists",
-  "mainSubline" : "tonebase gives you instant access to the knowledge of the world's greatest guitarists, performers and educators. Simple, easy, on-demand and on-line.",
+  "mainSubline" : "tonebase gives you instant access to knowledge from the world's greatest guitarists, performers and educators. Simple, easy, on-demand and on-line.",
   "artistList" : [
     {
       "name" : "Eliot Fisk",
-      "website" : "www.eliotfisk.com",
+      "website" : "http://www.eliotfisk.com",
       "imageSrc" : "landingPage/img/artists/eliotFisk.jpg",
       "imageExtraClass" : "shiftedDown",
       "sectionTextExtraClass" : ""
@@ -55,6 +55,34 @@
       "name" : "William Kanengiser",
       "website" : "http://www.kanengiser.com/",
       "imageSrc" : "landingPage/img/artists/williamKanengiser.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : "long-name"
+    },
+    {
+      "name" : "Tal Hurwitz",
+      "website" : "http://www.talhurwitz.com/",
+      "imageSrc" : "landingPage/img/artists/new/talHurwitz.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : ""
+    },
+    {
+      "name" : "Marco Tamayo",
+      "website" : "http://www.marcotamayoedition.com/",
+      "imageSrc" : "landingPage/img/artists/new/marcoTamayo.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : ""
+    },
+    {
+      "name" : "Denis Azabagic",
+      "website" : "http://www.azabagic.com/",
+      "imageSrc" : "landingPage/img/artists/new/denisAzabagic.jpg",
+      "imageExtraClass" : "shiftedDown",
+      "sectionTextExtraClass" : ""
+    },
+    {
+      "name" : "Carlo Marchione",
+      "website" : "http://www.carlo-marchione.com/",
+      "imageSrc" : "landingPage/img/artists/new/carloMarchione.jpg",
       "imageExtraClass" : "shiftedDown",
       "sectionTextExtraClass" : "long-name"
     }

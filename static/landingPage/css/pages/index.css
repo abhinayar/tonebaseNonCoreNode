@@ -1,5 +1,5 @@
-/* 
-Website CSS 
+/*
+Website CSS
 By Abhi Nayar
 https://linkedin.com/in/abhinayar
 Any questions feel free to message me^.
@@ -54,16 +54,12 @@ Colors:
 }
 
 .dark {
-  background: #121314; /* Old Browsers */
-  background: -webkit-linear-gradient(left,#1c1c1f,#121314); /*Safari 5.1-6*/
-  background: -o-linear-gradient(left,#1c1c1f,#121314); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(left,#1c1c1f,#121314); /*Fx 3.6-15*/
+  background: #121314; /* Old Browsers */ /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/
+  background: -webkit-gradient(linear, left top, right top, from(#1c1c1f), to(#121314));
   background: linear-gradient(to right, #1c1c1f, #121314); /*Standard*/
 } .light {
-  background: #d53a27; /* Old Browsers */
-  background: -webkit-linear-gradient(left,#d53a27,#e14f3d); /*Safari 5.1-6*/
-  background: -o-linear-gradient(left,#d53a27,#e14f3d); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(left,#d53a27,#e14f3d); /*Fx 3.6-15*/
+  background: #d53a27; /* Old Browsers */ /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/
+  background: -webkit-gradient(linear, left top, right top, from(#d53a27), to(#e14f3d));
   background: linear-gradient(to right, #d53a27, #e14f3d); /*Standard*/
 } .light a {
   color: #fff;
@@ -72,7 +68,8 @@ Colors:
 }
 
 .shadow {
-  box-shadow: 0 5px 12px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 5px 12px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 12px 0px rgba(0, 0, 0, 0.2);
 }
 
 html, body {
@@ -111,7 +108,7 @@ html, body {
     right: -8px;
     font-weight: 300;
   }
-  
+
   .header {
     position: relative;
     z-index: 2;
@@ -127,7 +124,7 @@ html, body {
   } .hero-info {
     margin-left: 2%;
   }
-  
+
   h1.hero-text {
     text-align: left;
     padding-top: 15px;
@@ -152,7 +149,7 @@ html, body {
   } p.hero-text b {
     color: #fff;
   }
-  
+
   .hero-form {
     margin-top: 30px;
     width: 99%;
@@ -165,7 +162,8 @@ html, body {
     border-radius: 60px;
     border: 5px solid rgba(225,79,61, 0.4);
     padding-left: 25px;
-    box-shadow: 0 5px 12px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 12px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 12px 0px rgba(0, 0, 0, 0.2);
     font-size: 1.7rem;
     width: 100%;
   } .hero-form .form-input-wrapper {
@@ -174,6 +172,7 @@ html, body {
     width: 100%;
   } .form-input {
     color: #000;
+    -webkit-transition: all 120ms ease;
     transition: all 120ms ease;
   } .hero-form .valid:after {
     display: block;
@@ -196,9 +195,12 @@ html, body {
     -webkit-appearance: none;
     color: #fff;
     margin-top: 10px;
+    -webkit-transition: all 120ms ease;
     transition: all 120ms ease;
   } .hero-form .form-button:hover {
-    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    -webkit-transition: all 120ms ease;
     transition: all 120ms ease;
   } #mce-responses {
     width: 85%;
@@ -211,7 +213,7 @@ html, body {
   } .bottom-form {
     margin-left: 0;
   }
-  
+
   .small-section {
     padding: 15px 0;
   } .long-top {
@@ -223,7 +225,7 @@ html, body {
   } .row.shiftDown {
     margin-top: 60px;
   }
-  
+
   h1.section-text {
     font-size: 2.3em;
     font-weight: 400;
@@ -243,7 +245,7 @@ html, body {
   } p.section-text b {
     color: #fff;
   }
-  
+
   .artist-block {
     position: relative;
     height: 120px;
@@ -255,6 +257,7 @@ html, body {
     top: -60%;
     left: 0;
     min-width: 100%;
+    -webkit-transition: all 120ms ease;
     transition: all 120ms ease;
   } .artist-block .artist-image.shiftedDown {
     top: -30%;
@@ -278,17 +281,18 @@ html, body {
     background-color: rgba(0,0,0,0.6);
     cursor: pointer;
   } .artist-block:not(.filler) .artist-name a:hover {
-    background-color: rgba(141,47,34, 0.6); 
+    background-color: rgba(141,47,34, 0.6);
+    -webkit-transition: all 120ms ease;
     transition: all 120ms ease;
   }
-  
+
   .features-section {
     background-image: url(../../img/landing/landingBg.jpg);
     padding-bottom: 60px;
   } .features-section .section-text {
     text-align: left;
   }
-  
+
   .social-rollout {
     font-size: 2.2em;
     margin-top: 10px;
@@ -298,20 +302,20 @@ html, body {
     text-decoration: none;
     display: inline-block;
   }
-  
+
   .footer {
     padding-bottom: 15px;
     border-bottom: 30px solid #1c1c1f;
   }
-  
-} 
+
+}
 @media (min-width: 450px) {
   .artist-block {
     height: 150px;
   } .artist-block .artist-name a {
     padding-top: 95px;
   }
-} 
+}
 @media (min-width: 540px) {
   .header .hero-image, .features-section .hero-image {
     padding: 0 30px;
@@ -327,8 +331,8 @@ html, body {
   } .artist-block .artist-image.shiftedDown {
     top: -20%;
   }
-} 
-@media (min-width: 768px) {  
+}
+@media (min-width: 768px) {
   .top-bar {
     padding-top: 20px;
   } .header {
@@ -363,21 +367,21 @@ html, body {
     top: 0;
   } .artist-block .artist-name a {
     padding-left: 6%;
-  } 
-} 
-@media (min-width: 992px) {  
+  }
+}
+@media (min-width: 992px) {
   .large-section {
     padding: 45px 0;
     padding-bottom: 90px;
   }
-  
+
   .top-bar .logo {
     float: left;
   } .top-bar .social-rollout {
     float: right;
     padding-top: 15px;
   }
-    
+
   .header {
     padding: 30px 0;
     padding-bottom: 90px;
@@ -448,7 +452,7 @@ html, body {
   } .bottom-sign-up p.section-text {
     text-align: center;
   }
-} 
+}
 @media (min-width: 1126px) {
   .artist-block {
     height: 220px;
@@ -461,6 +465,23 @@ html, body {
     padding-top: 165px;
   } .artist-block[data-target="William Kanengiser"] .artist-name a {
     padding-top: 132px;
+  }
+}
+@media (min-width: 1028px) {
+  .artist-block[data-target="Carlo Marchione"] .artist-name a {
+    padding-top: 124px;
+  }
+}
+@media (min-width: 1042px) {
+  .artist-block[data-target="Artyom Dervoed"] .artist-name a {
+    padding-top: 165px;
+    padding-top: 124px;
+  }
+}
+@media (min-width: 1126px) {
+  .artist-block[data-target="Carlo Marchione"] .artist-name a,
+  .artist-block[data-target="Artyom Dervoed"] .artist-name a {
+    padding-top: 165px;
   }
 }
 @media (min-width: 1182px) {
@@ -489,8 +510,8 @@ html, body {
     font-size: 2.8em;
   } .features-section .hero-image.short {
     padding-top: 32px;
-  } 
-} 
+  }
+}
 @media (min-width: 1440px) {
   .container {
     max-width: 1200px;
