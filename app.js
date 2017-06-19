@@ -28,6 +28,13 @@ app.get('/comingSoon', function(req, res) {
     content : landingContent
   });
 })
+app.get('/GFA', function(req, res) {
+  //EDIT THIS FILE
+  var landingContent = require(__dirname + '/dynamicContent/landingPageGFA.json');
+  res.render('landing', {
+    content : landingContent
+  });
+})
 
 app.listen(app.get('port'), function(){
   console.log('tonebase app listenting on port ' + app.get('port'));
